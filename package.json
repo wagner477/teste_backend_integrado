@@ -6,8 +6,10 @@
   "author": "Wagner Oliveira de Almeida <61123555+wagner477@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "upUniversities": "node ./src/services/UpuniversitiesToDatabase",
-    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts"
+    "upUniversities": "sucrase-node ./utils/UpuniversitiesToDatabase",
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts",
+    "build": "tsc",
+    "start": "node ./dist/server.js"
   },
   "dependencies": {
     "@prisma/client": "^3.15.0",
@@ -16,6 +18,7 @@
     "express-async-errors": "^3.1.1"
   },
   "devDependencies": {
+    "sucrase": "^3.21.0",
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.41",
     "prisma": "^3.15.0",
