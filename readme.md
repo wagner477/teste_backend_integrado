@@ -94,8 +94,6 @@ Esse comando irá subir a aplicação na porta 3000.
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
-
 - [Nodejs](https://nodejs.org/en/) - Javascript runtime utilizado
 - [Prisma](https://www.prisma.io/) - Orm utilizado
 - [Mongo](https://www.mongodb.com/) - Banco de dados utilizado
