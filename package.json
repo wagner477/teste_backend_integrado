@@ -5,8 +5,13 @@
   "repository": "https://github.com/wagner477/teste_backend_integrado.git",
   "author": "Wagner Oliveira de Almeida <61123555+wagner477@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "upUniversities": "node ./src/services/UpuniversitiesToDatabase"
+  },
+  "type": "module",
   "dependencies": {
-    "@prisma/client": "^3.15.0"
+    "@prisma/client": "^3.15.0",
+    "axios": "^0.27.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.41",
