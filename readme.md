@@ -8,8 +8,11 @@ A parte 2 consiste em um crud, a partir dos dados do mesmo banco.
 
 ### 📋 Pré-requisitos
 
-Você precisará de um banco de dados cridado de forma gratuita no mongodb atlas
+Você precisará de um uma conta no mongodb atlas
 https://cloud.mongodb.com/
+
+Após isso crie um database com o nome de sua escolha, por exemplo, universities_db
+
 
 E Você precisará de algumas tecnologias intaladas como:
 
